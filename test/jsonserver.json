@@ -1,0 +1,55 @@
+{
+  "search": [
+    {
+      "GUID": 1,
+      "isActive": true,
+      "age": 40,
+      "first_name": "Dickerson",
+      "last_name": "Macdonald",
+      "menu": [
+        "view",
+        "print"
+      ]
+    },
+    {
+      "GUID": 2,
+      "isActive": false,
+      "age": 21,
+      "first_name": "Larsen",
+      "last_name": "Shaw",
+      "menu": [
+        "view",
+        "print"
+      ]
+    },
+    {
+      "GUID": 3,
+      "isActive": false,
+      "age": 89,
+      "first_name": "Geneva",
+      "last_name": "Wilson",
+      "menu": [
+        "view",
+        "print"
+      ]
+    },
+    {
+      "GUID": 4,
+      "isActive": true,
+      "age": 38,
+      "first_name": "Jami",
+      "last_name": "Carney",
+      "menu": [
+        "view",
+        "print"
+      ]
+    }
+  ],
+  "columns":[
+    {"key":"show_details","sortable":false,"label":"Menu"},
+    {"key":"last_name","label":"Last Name","sortable":true},
+    {"key":"first_name","label":"First Name","sortable":false},
+    {"key":"age","label":"Person age","sortable":true}
+  ]
+
+}
